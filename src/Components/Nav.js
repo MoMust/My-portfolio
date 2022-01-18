@@ -8,7 +8,6 @@ function Nav() {
     return (
      <header>
          <div className='container container-flex row'>
-            
             <nav className='col-lg-12 ms-5' >
                 <div className='nav-bar '>
                     <ul>
