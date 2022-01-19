@@ -4,6 +4,6 @@
   box-sizing: border-box;
 }
 
-.container {
-  display: flex;
+html, body{
+  height:100%;
 }
