@@ -1,8 +1,14 @@
 import React from 'react'
-
+import ContactForm from '../Components/ContactForm';
+import '../Css/Fonts.css';
 function Contact() {
     return (
-        <h1>This is my contact page</h1>
+        <div className='body-class-contact-form'>   
+             <div className='form-container'>
+                <h1>Contact</h1>
+                <ContactForm />
+            </div>
+        </div>
     )
 }
 

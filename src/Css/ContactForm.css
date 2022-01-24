@@ -1,0 +1,26 @@
+
+
+.body-class-contact-form{
+    text-align: center;
+    background-color: rgb(22, 21, 21);
+    height:100vh;
+   padding-top: 5rem
+
+}
+.form-container{
+    background-color: rgb(55, 142, 144);
+    font-family: 'Staatliches', cursive;
+    width: 90%;
+    margin:auto;
+}
+.form-container h1{
+    padding-bottom: 2rem;
+
+}
+
+.form input, textarea{
+    width: 30%;
+}
+.form textarea{
+    height: 100px;
+}

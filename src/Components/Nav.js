@@ -1,6 +1,5 @@
 import '../Css/Fonts.css'
 import React from 'react'
-import logo from  '../Images/md-icon.png';
 import {NavLink} from 'react-router-dom';
 import  '../Css/NavStyle.css';
 import 'bootstrap/dist/css/bootstrap.min.css';

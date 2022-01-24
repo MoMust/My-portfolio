@@ -1,34 +1,36 @@
-body{
-    height:100%;
-}
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
 
 .container-front{
+  background-image: url(/src/Images/backgroundCode.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   padding:0;
   margin:0;
   height:100vh;
-  border: 1px solid red;
   
-background: rgb(62,55,56);
-background: radial-gradient(circle, rgba(62,55,56,1) 36%, rgba(11,12,17,1) 99%);
 }
 .front-text{
- 
-  border: 1px solid red;
-  
-}
-.front-pic{
- border: 1px solid red;
+  font-family: 'Staatliches', cursive;
 }
 
 .front-text h2{
+color:rgb(13, 187, 77);
 padding-top: 5em;
 padding-left: 30px;
-color:#fff;
+
 
 } 
 .front-text h3{
 font-size: 60px;
-color:#fff;
+color:rgb(238, 215, 173);
 padding-left: 30px;
+
+} 
+.front-text p{
+font-size: 30px;
+color:rgb(193, 44, 220);
+padding-left: 30px;
+padding-top: 1em;
 
 } 
