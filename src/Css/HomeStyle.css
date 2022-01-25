@@ -1,36 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
-
-.container-front{
+body{
   background-image: url(/src/Images/backgroundCode.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding:0;
   margin:0;
   height:100vh;
+}
+.container-front{
+
   
 }
 .front-text{
   font-family: 'Staatliches', cursive;
+  margin-left: 30px;
 }
 
 .front-text h2{
 color:rgb(13, 187, 77);
 padding-top: 5em;
-padding-left: 30px;
+
 
 
 } 
 .front-text h3{
 font-size: 60px;
 color:rgb(238, 215, 173);
-padding-left: 30px;
+
 
 } 
 .front-text p{
 font-size: 30px;
 color:rgb(193, 44, 220);
-padding-left: 30px;
+
 padding-top: 1em;
 
-} 
+}
+
+.social-media{
+  margin-left: 30px;
+  display:flex;
+  gap: 70px;
+  font-size: 30px;
+}
+.social-icons{
+  transform: scale(1.8);
+}
+.social-icons:hover{
+  transform: scale(2.8);
+  transition: 1s;
+  color:blue;
+}

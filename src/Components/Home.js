@@ -1,7 +1,8 @@
 import React from 'react';
 import '../Css/HomeStyle.css';
-
-// import SchoolIcon from '@mui/icons-material/School';
+import Icon from '@material-ui/core/Icon';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 function Home() {
     return (
@@ -12,6 +13,12 @@ function Home() {
                     <h3>Welcome to my portfolio</h3>
                     <p>I'm a student of front end development, looking<br/>
                     to learn it all.</p>
+                    
+                </div>
+                <div className='social-media'>
+                   <a href="#"><FacebookIcon className='social-icons' variant="contained"  color="primary"/></a>
+                   <a href="#"><LinkedInIcon   className='social-icons' variant="contained" color="primary"/></a>
+                    
                 </div>
             </div>
            
