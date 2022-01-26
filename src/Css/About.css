@@ -1,0 +1,22 @@
+
+.row{
+    display: flex;
+    gap: 3rem;
+}
+
+.profile-card{
+    border: 1px solid red;
+    height: 50vw;
+}
+
+.about-info{
+    border: 1px solid red;
+    height: 50vw;
+}
+
+@media only screen and (max-width:766){
+    .profile-card{
+    
+    height: 1vw;
+}
+}

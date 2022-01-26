@@ -1,17 +1,26 @@
 import React from 'react'
 import '../Css/About.css'
-import {Navigate, useNavigate} from 'react-router-dom';
+
+// import ReturnHome from './ReturnHomeButton';
+
 
 function About() {
-    let Navigate = useNavigate();
+    
     return (
-        <div>
-            <h1>This is about</h1>
-            <p>Go to home page</p>
-            <button onClick={() =>{
-                Navigate('/');
-            }}>Button</button>
+        <div className='body-class-about'>
+            <div className='wrapper'>
+                 <div className='row d-flex justify-content-center mt-5 '>
+                <div className='profile-card col-lg-3 col-md-5 col-sm-8 col-8'>
+                    <p>col.1</p>
+                </div>
+                <div className='about-info col-lg-5 col-md-5 col-sm-10 col-10'>
+                    <p>col.2</p>
+                </div>
+            </div>
+            </div>
+           
         </div>
+            
         
     )
 }

@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
-
-body{
+/* WALLPAPER FOR ALL PAGES */
+#root{
+  background-color: black;
+}
+/* WALLPAPER FOR ALL PAGES SLUT*/
+.body-class{
   background-image: url(/src/Images/backgroundCode.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -8,10 +12,7 @@ body{
   margin:0;
   height:100vh;
 }
-.container-front{
 
-  
-}
 .front-text{
   font-family: 'Staatliches', cursive;
   margin-left: 30px;
@@ -20,24 +21,17 @@ body{
 .front-text h2{
 color:rgb(13, 187, 77);
 padding-top: 5em;
-
-
-
 } 
 .front-text h3{
 font-size: 60px;
 color:rgb(238, 215, 173);
-
-
 } 
 .front-text p{
 font-size: 30px;
 color:rgb(193, 44, 220);
-
 padding-top: 1em;
-
 }
-
+/* ICONS */
 .social-media{
   margin-left: 30px;
   display:flex;
