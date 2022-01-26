@@ -1,11 +1,18 @@
-
-.row{
+.body-class-about{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    width:100%;
+}
+.row-custom{
     display: flex;
-    gap: 3rem;
+    height: 100%;
+    height: 100vh;
+    gap: 5rem;
 }
 
 .profile-card{
-    border: 1px solid red;
+   
     height: 50vw;
 }
 
@@ -13,10 +20,45 @@
     border: 1px solid red;
     height: 50vw;
 }
-
-@media only screen and (max-width:766){
-    .profile-card{
-    
-    height: 1vw;
+.profile-card{
+    text-align: center;
+    flex-direction: column;
 }
+
+.profile-bg{
+    margin: auto;
+    width: 10vw;
+    height:10vw;
+    background-color: rgb(125, 157, 29);
+    border-radius: 50%;
+}
+
+.profile-image img{
+    filter: grayscale(60%) contrast(170%) brightness(95%);
+    border-radius: 50%;
+    width: 10vw;
+    height: 10vw;
+}
+.profile-card-text{
+    margin-top: 10px;
+}
+
+.social-media-about{
+  justify-content: center;
+  display:flex;
+  gap: 20px;
+  font-size: 20px;
+}
+
+.social-icons{
+  transform: scale(1.0);
+}
+.profile-card > .profile-info{
+    margin-top: 1rem;
+}
+
+.profile-info-details{
+    display:flex;
+    justify-content: center;
+    gap:20px
 }
