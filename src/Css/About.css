@@ -5,18 +5,11 @@
     margin:0;
     box-sizing: border-box;
     min-height: 100vh;
-    
     font-family: 'Staatliches', cursive;
 }
 .row-custom{
     display: flex;
-    
-    
     gap: 5rem;
-}
-.about-info{
-    border: 1px solid red;
-    height: 50vw;
 }
 
 .profile-card{
@@ -87,5 +80,33 @@
     background-color: blue;
     color:black;
     transition: 1s;
-    
+}
+
+/* ABOUT */
+
+.about-info{
+    border: 1px solid red;
+    border: 1px solid;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.about-info-top > p, h2{
+color: rgb(125, 157, 142);
+}
+
+.about-info-bottom{
+    margin-top: 10%;
+}
+
+.box{
+    border: solid 1px;
+    height: 10vh;
+}
+
+.about-info-bottom-row{
+gap: 20px;
+display:flex;
+justify-content: center;
 }

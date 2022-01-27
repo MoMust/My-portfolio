@@ -12,6 +12,7 @@ function About() {
     
     return (
         <div className='body-class-about'>
+                                {/* PROFILE CARD */}
                  <div className='row row-custom d-flex justify-content-center mt-4 '>
                     <div className='profile-card col-lg-3 col-md-5 col-sm-8 col-8'>
                         <div className="profile-info-container">
@@ -48,9 +49,28 @@ function About() {
                         </div>
                         </div>
                     </div>
-               
+                    {/* PROFILE CARD END*/}
                     <div className='about-info col-lg-5 col-md-5 col-sm-10 col-10'>
-                        <p>col.2</p>
+                        <div className='about-info-top'>   
+                            <h2>About me</h2>
+                            <p>I'm a student of front end development, looking<br/>
+                    to learn it all.</p>
+                        </div>
+                        <div className='about-info-bottom'>   
+                            <h2>What im doing</h2>
+                            <div class="row about-info-bottom-row">
+                                <div className='row col-lg-12'>
+                                    <div class="box col-lg-6">1</div>
+                                    <div class="box col-lg-6">2</div>
+                                </div>
+                                <div className='row col-lg-12'>
+                                     <div class="box col-lg-6">3</div>  
+                                    <div class="box col-lg-6">4</div>
+                                </div>
+                               
+                            </div>
+                        </div>
+                        
                     </div>
                 </div>
             
