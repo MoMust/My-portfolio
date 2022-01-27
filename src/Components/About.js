@@ -12,7 +12,6 @@ function About() {
     
     return (
         <div className='body-class-about'>
-            <div className='wrapper'>
                  <div className='row row-custom d-flex justify-content-center mt-4 '>
                     <div className='profile-card col-lg-3 col-md-5 col-sm-8 col-8'>
                         <div className="profile-info-container">
@@ -54,7 +53,7 @@ function About() {
                         <p>col.2</p>
                     </div>
                 </div>
-            </div>
+            
            
         </div>
             

@@ -4,13 +4,14 @@
     padding:0;
     margin:0;
     box-sizing: border-box;
-    width:100%;
+    min-height: 100vh;
+    
     font-family: 'Staatliches', cursive;
 }
 .row-custom{
     display: flex;
-    height: 100%;
-    height: 100vh;
+    
+    
     gap: 5rem;
 }
 .about-info{
