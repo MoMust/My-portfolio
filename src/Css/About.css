@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
 .body-class-about{
     padding:0;
     margin:0;
     box-sizing: border-box;
     width:100%;
+    font-family: 'Staatliches', cursive;
 }
 .row-custom{
     display: flex;
@@ -10,37 +13,45 @@
     height: 100vh;
     gap: 5rem;
 }
-
-.profile-card{
-   
-    height: 50vw;
-}
-
 .about-info{
     border: 1px solid red;
     height: 50vw;
 }
+
 .profile-card{
     text-align: center;
     flex-direction: column;
 }
+.profile-info-container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(3, 3, 3, 0.904);
+    border-radius: 10px;
+    border: solid 1px;
+}
 
 .profile-bg{
     margin: auto;
-    width: 10vw;
-    height:10vw;
-    background-color: rgb(125, 157, 29);
+    width: 12vw;
+    height:14vw;
+    /* background-color: rgb(125, 157, 29); */
+    background-color: rgb(17, 17, 17);
     border-radius: 50%;
 }
 
 .profile-image img{
     filter: grayscale(60%) contrast(170%) brightness(95%);
     border-radius: 50%;
-    width: 10vw;
-    height: 10vw;
+    width: 12vw;
+    height: 14vw;
 }
 .profile-card-text{
+    color: rgb(125, 157, 142);
     margin-top: 10px;
+}
+
+.title-color{
+    color: rgb(0, 255, 132);
 }
 
 .social-media-about{
@@ -53,12 +64,27 @@
 .social-icons{
   transform: scale(1.0);
 }
-.profile-card > .profile-info{
+.profile-info{
     margin-top: 1rem;
 }
 
 .profile-info-details{
     display:flex;
     justify-content: center;
-    gap:20px
+    gap:20px;
+    color: rgb(125, 157, 142);
+    font-weight: 600;
+}
+
+.send-mail > button{
+    width:30%;
+    background-color: rgb(21, 97, 152);
+    color: black;
+    font-weight: 600;
+}
+.send-mail > button:hover{
+    background-color: blue;
+    color:black;
+    transition: 1s;
+    
 }
