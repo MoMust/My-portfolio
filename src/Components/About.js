@@ -7,6 +7,11 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import SchoolIcon from '@mui/icons-material/School';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import CalendarTodayIcon from '@mui/icons-material/CalendarToday';
+import JavascriptIcon from '@mui/icons-material/Javascript';
+import HtmlIcon from '@mui/icons-material/Html';
+import CssIcon from '@mui/icons-material/Css';
+import CodeIcon from '@mui/icons-material/Code';
+import CropDinIcon from '@mui/icons-material/CropDin';
 
 function About() {
     
@@ -53,19 +58,47 @@ function About() {
                     <div className='about-info col-lg-5 col-md-5 col-sm-10 col-10'>
                         <div className='about-info-top'>   
                             <h2>About me</h2>
-                            <p>I'm a student of front end development, looking<br/>
-                    to learn it all.</p>
+                            <h3>I'm a student of front end development, looking<br/>
+                    to learn it all.</h3>
                         </div>
                         <div className='about-info-bottom'>   
                             <h2>What im doing</h2>
                             <div class="row about-info-bottom-row">
                                 <div className='row col-lg-12'>
-                                    <div class="box col-lg-6">1</div>
-                                    <div class="box col-lg-6">2</div>
+                                    <div class="box col-lg-6">
+                                        <div className='box-header'>
+                                            <CodeIcon /> <p>Programming Languages</p>
+                                        </div>
+                                        <div className='box-content'>
+                                            <HtmlIcon /> <CssIcon/> <JavascriptIcon />
+                                        </div>
+                                    </div>
+                                    <div class="box col-lg-6">
+                                        <div className='box-header'>
+                                            <CropDinIcon /> <p>Frameworks</p>
+                                        </div>
+                                        <div className='box-content'>
+                                            <HtmlIcon /> <CssIcon/> <JavascriptIcon />
+                                        </div>
+                                    </div>
                                 </div>
                                 <div className='row col-lg-12'>
-                                     <div class="box col-lg-6">3</div>  
-                                    <div class="box col-lg-6">4</div>
+                                     <div class="box col-lg-6">
+                                         <div className='box-header'>
+                                            <CodeIcon /> <p>Programming Languages</p>
+                                        </div>
+                                        <div className='box-content'>
+                                            <HtmlIcon /> <CssIcon/> <JavascriptIcon />
+                                        </div>
+                                    </div>  
+                                    <div class="box col-lg-6">
+                                        <div className='box-header'>
+                                            <CodeIcon /> <p>Programming Languages</p>
+                                        </div>
+                                        <div className='box-content'>
+                                            <HtmlIcon /> <CssIcon/> <JavascriptIcon />
+                                        </div>
+                                    </div>
                                 </div>
                                
                             </div>

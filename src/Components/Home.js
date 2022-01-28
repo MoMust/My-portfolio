@@ -1,6 +1,5 @@
 import React from 'react';
 import '../Css/HomeStyle.css';
-import Icon from '@material-ui/core/Icon';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 

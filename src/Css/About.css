@@ -92,12 +92,21 @@
     padding-bottom: 20px;
 }
 
-.about-info-top > p, h2{
+.about-info-top > h3, h2{
 color: rgb(125, 157, 142);
 }
 
 .about-info-bottom{
+    color: rgb(34, 149, 47);
     margin-top: 10%;
+}
+
+.box-header{
+    display:flex;
+}
+
+.box-content{
+color: rgb(125, 157, 142);
 }
 
 .box{
@@ -108,5 +117,6 @@ color: rgb(125, 157, 142);
 .about-info-bottom-row{
 gap: 20px;
 display:flex;
+justify-content: space-evenly;
 justify-content: center;
 }
