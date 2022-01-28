@@ -102,16 +102,30 @@ color: rgb(125, 157, 142);
 }
 
 .box-header{
+    
     display:flex;
 }
 
 .box-content{
+    display:flex;
 color: rgb(125, 157, 142);
+gap:20px;
+}
+
+.box-content-fa{
+    display:flex;
+    gap:10px;
 }
 
 .box{
     border: solid 1px;
     height: 10vh;
+    background-color: rgba(0, 128, 0, 0.217);
+}
+
+.box:hover{
+    transform: scale(0.8);
+    transition: 3s;
 }
 
 .about-info-bottom-row{
@@ -119,4 +133,8 @@ gap: 20px;
 display:flex;
 justify-content: space-evenly;
 justify-content: center;
+}
+
+.box-header-icon{
+    transform: scale(1.8);
 }

@@ -12,13 +12,16 @@ import HtmlIcon from '@mui/icons-material/Html';
 import CssIcon from '@mui/icons-material/Css';
 import CodeIcon from '@mui/icons-material/Code';
 import CropDinIcon from '@mui/icons-material/CropDin';
+import { FaReact } from 'react-icons/fa';
+import { FaBootstrap } from 'react-icons/fa';
+
 
 function About() {
     
     return (
         <div className='body-class-about'>
                                 {/* PROFILE CARD */}
-                 <div className='row row-custom d-flex justify-content-center mt-4 '>
+                 <div className='row row-custom d-flex justify-content-center mt-5 '>
                     <div className='profile-card col-lg-3 col-md-5 col-sm-8 col-8'>
                         <div className="profile-info-container">
                             <div className='profile-bg'>
@@ -78,14 +81,15 @@ function About() {
                                             <CropDinIcon /> <p>Frameworks</p>
                                         </div>
                                         <div className='box-content'>
-                                            <HtmlIcon /> <CssIcon/> <JavascriptIcon />
+                                            <div className='box-content-fa'><FaReact  /><p>React</p></div>
+                                            <div  className='box-content-fa'><FaBootstrap/><p>Bootstrap</p></div>
                                         </div>
                                     </div>
                                 </div>
                                 <div className='row col-lg-12'>
                                      <div class="box col-lg-6">
                                          <div className='box-header'>
-                                            <CodeIcon /> <p>Programming Languages</p>
+                                            <CodeIcon/> <p>Programming Languages</p>
                                         </div>
                                         <div className='box-content'>
                                             <HtmlIcon /> <CssIcon/> <JavascriptIcon />

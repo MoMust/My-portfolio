@@ -70,15 +70,21 @@ nav ul {
   .nav-items-right {
     font-size: 30px;
   }
-  .container {
+  .container-nav {
+    display:flex;
     justify-content: center;
+    margin:0;
   }
   nav ul {
     display: flex;
     flex-direction: column;
     gap: 0;
     text-align: center;
-    justify-content: center;
+    padding-left:0;
+    
+  }
+  .contact-link{
+    margin:0;
   }
 }
 
