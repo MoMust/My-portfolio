@@ -40,5 +40,12 @@
   border-radius: 10px;
   height: 30vh;
   cursor: zoom-in;
+  padding:0;
 }
+
+.content-work-img {
+    display: flex;
+    justify-content: center;
+}
+
 
