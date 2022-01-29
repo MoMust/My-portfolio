@@ -65,8 +65,10 @@ function MyWork() {
                 {/* Part 1 */}
                 <div className='row row-custom-mywork'>
                     <div className='content-mywork col-lg-12'>
-                        <h1>This is my work</h1>
-                        <h3>Project DOC</h3>
+                        <div className='project-names'>
+                            <h3>Project DOC</h3>
+                        </div>
+                        
                         <div style={makeCursor2} className='row row-work-images mt-5'  onClick={() => setBigImage1(bigImage => !bigImage)}>
                             <div className='content-work-img col-lg-6'>
                                 <img style={part1SizeImage1} id='img1' src={doc1} ></img>
@@ -81,10 +83,14 @@ function MyWork() {
                 {/* Part 2 */}
                 <div className='row row-custom-mywork'>
                     <div className='content-mywork col-lg-12'>
-                        <h1>This is my work</h1>
-                        <h3>Project DOC</h3>
+                        <div className='row project-names'>
+                            <h3 className='col-lg-6'>Project MediCare</h3>
+                            <h3 className='col-lg-6'>Project Sport Fashion</h3>
+                        </div>
+                        
                         <div style={makeCursor} className='row row-work-images mt-5'  onClick={() => setBigImage2(bigImage => !bigImage)}>
                             <div className='content-work-img col-lg-6'>
+                                
                                 <img style={part2SizeImage1} id='img1' src={lakarProject} ></img>
                             </div>
                             <div className='content-work-img col-lg-6'>

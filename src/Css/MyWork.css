@@ -25,8 +25,8 @@
 .content-mywork {
   border-radius: 10px;
   border: 1px solid;
-  height: 30rem;
   background-color: rgba(136, 181, 152, 0.129);
+  padding-bottom: 50px;
 }
 .content-mywork h1 {
   color: rgb(125, 157, 142);
@@ -35,12 +35,15 @@
   color: rgb(82, 155, 121);
 }
 
+
 .content-work-img img {
   filter: grayscale(20%) brightness(75%);
   border-radius: 10px;
   height: 30vh;
   cursor: zoom-in;
   padding:0;
+  margin-top: 20px;
+  
 }
 
 .content-work-img {
@@ -57,4 +60,9 @@
 
 .content-cv{
     border: 1px solid;
+}
+
+.project-names{
+    text-align: center;
+    padding-top: 20px;
 }
