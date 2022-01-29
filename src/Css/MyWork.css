@@ -60,9 +60,20 @@
 
 .content-cv{
     border: 1px solid;
+    text-align: center;
+    height: 60vh;
+    
+}
+.content-cv iframe{
+    
+    padding:20px;
+    filter: grayscale(20%) brightness(75%);
+    width: 80%;
+    height: 90%;
 }
 
 .project-names{
     text-align: center;
     padding-top: 20px;
+
 }

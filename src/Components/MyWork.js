@@ -84,8 +84,8 @@ function MyWork() {
                 <div className='row row-custom-mywork'>
                     <div className='content-mywork col-lg-12'>
                         <div className='row project-names'>
-                            <h3 className='col-lg-6'>Project MediCare</h3>
-                            <h3 className='col-lg-6'>Project Sport Fashion</h3>
+                            <h3 className='col-lg-6'>MediCare</h3>
+                            <h3 className='col-lg-6'>Sport Fashion</h3>
                         </div>
                         
                         <div style={makeCursor} className='row row-work-images mt-5'  onClick={() => setBigImage2(bigImage => !bigImage)}>
@@ -106,7 +106,7 @@ function MyWork() {
                                 <h1>Check out my CV</h1>
                         </div>
                         <div className='content-cv'>
-                             <iframe src="https://drive.google.com/file/d/1p6hgBWagF7DsTxfRVkyvztFpVyrB1JRz/preview" width="640" height="480" allow="autoplay"></iframe>
+                             <iframe src="https://drive.google.com/file/d/1p6hgBWagF7DsTxfRVkyvztFpVyrB1JRz/preview" allow="autoplay"></iframe>
                         </div>
                        
                     </div>

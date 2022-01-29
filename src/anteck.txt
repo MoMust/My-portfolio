@@ -1,0 +1,28 @@
+*Allmänt
+-Write a report of the project
+
+*MyWork
+-Add return button
+-Make cv responsive and clean.
+-Add more style
+-Add github fetch
+
+*About
+-Make return button
+-Fix 'Email' button
+-Fix social media icons
+-Redirect 'KYH' to website 
+-Make languages bigger
+
+*Home
+-Fix social icons
+-More ideas?
+
+*Contact
+-Make email form responsive
+-update style
+
+
+*Extra
+-Hide show cv
+-
