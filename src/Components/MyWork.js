@@ -50,9 +50,6 @@ function MyWork() {
            cursor: makeBigImage2 ? 'zoom-out' : 'zoom-in',
         }
 
-
-     
-      
     return (
         <div className='body-class-dark'>
             <div className='container container-mywork '>
@@ -94,6 +91,18 @@ function MyWork() {
                                 <img style={part2SizeImage2} id='img1' src={sportSkor} ></img>
                             </div>
                         </div>
+                    </div>
+                
+                </div>
+                <div className='row row-custom-mywork'>
+                    <div className='content-mywork-mini col-lg-12'>
+                        <div className='content-header-cv'>
+                                <h1>Check out my CV</h1>
+                        </div>
+                        <div className='content-cv'>
+                             <iframe src="https://drive.google.com/file/d/1p6hgBWagF7DsTxfRVkyvztFpVyrB1JRz/preview" width="640" height="480" allow="autoplay"></iframe>
+                        </div>
+                       
                     </div>
                 
                 </div>
