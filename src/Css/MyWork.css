@@ -1,0 +1,44 @@
+.body-class-dark {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+  font-family: "Staatliches", cursive;
+}
+
+.container-mywork {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.header-mywork {
+  border: 1px solid;
+}
+.header-mywork h1 {
+  color: rgb(125, 157, 142);
+}
+.header-mywork h3 {
+  color: rgb(82, 155, 121);
+}
+
+.content-mywork {
+  border-radius: 10px;
+  border: 1px solid;
+  height: 30rem;
+  background-color: rgba(136, 181, 152, 0.129);
+}
+.content-mywork h1 {
+  color: rgb(125, 157, 142);
+}
+.content-mywork h3 {
+  color: rgb(82, 155, 121);
+}
+
+.content-work-img img {
+  filter: grayscale(20%) brightness(75%);
+  border-radius: 10px;
+  height: 30vh;
+  cursor: zoom-in;
+}
+

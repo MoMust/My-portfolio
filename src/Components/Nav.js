@@ -11,11 +11,11 @@ function Nav() {
             <nav>
                 <div className='nav-bar'>
                     <ul>
-                        <NavLink exact to="/" className='nav-items' activeClassName='active-item'>Home</NavLink>
-                        <NavLink to="/About" className='nav-items' activeClassName='active-item'>About</NavLink>
-                        <NavLink to="/MyWork" className='nav-items' activeClassName='active-item'>My work</NavLink>
-                        <NavLink to="/Experience" className='nav-items' activeclass='active-item'>Experience</NavLink>
-                        <NavLink to="/Contact" className='nav-items-right ms-lg-auto contact-link' activeClassName='active-item'>Contact</NavLink>
+                        <NavLink exact to="/" className='nav-items'>Home</NavLink>
+                        <NavLink to="/About" className='nav-items'>About</NavLink>
+                        <NavLink to="/MyWork" className='nav-items'>My work</NavLink>
+                        <NavLink to="/Experience" className='nav-items' >Experience</NavLink>
+                        <NavLink to="/Contact" className='nav-items-right ms-lg-auto contact-link'>Contact</NavLink>
                         
                     </ul>
                 </div>
