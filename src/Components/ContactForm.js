@@ -1,47 +1,39 @@
 import React from 'react'
-import { useState } from "react";
 import '../Css/ContactForm.css';
-
+import emailjs from 'emailjs-com'
 function ContactForm() {
-        const FORM_ENDPOINT = '';
-   
-        const [sendMessage, setSendMessage] = useState(false);
-        const handleMessage = () =>{
-            setTimeout(() => {
-                setSendMessage(true)
-            }, 100);
-        };
-    
-    if(sendMessage){
-         return (
-        <>
-        <h1>You have sent the message</h1>
-        </>
-        
-    );
+        function sendEmail(e){
+        e.preventDefault()
+
+        emailjs.sendForm('service_r4v20od', 'template_kxmssbu',e.target, 'user_z0ZrJ8xdlfZwDeLvMXTFT').then(res=>{
+            console.log(res);
+        }).catch(err=> console.log(err));
     }
+    
    return(
-    <form
-    action={FORM_ENDPOINT}
-    onSubmit={handleMessage}
-    method="post"
-    target="_blank"
-    >
-        <div className='form'>
-            <input type="text" placeholder='Your name' name ="name" required></input>
-        </div>
-        <div className='form'>
-            <input type="text" placeholder='Your email' name ="name" required></input>
-        </div>
-        <div className='form'>
-            <textarea placeholder='Your message' name ="name" required></textarea>
-        </div>
-        <div >
-            <button type="submit">Send a message</button>
-        </div>
-    </form>
+       <div>
+           <div className='container'>
+           </div>
+           <form  onSubmit={sendEmail}>
+                <div className='form'>
+                    <input type="text" placeholder='Your name' name ="name" required></input>
+                </div>
+                <div className='form'>
+                    <input type="text" placeholder='Your email' name ="email" required></input>
+                </div>
+                <div className='form'>
+                    <textarea placeholder='Your message' name ="message" required></textarea>
+                </div>
+                <div >
+                    <input type="submit" value="Send"></input>
+                </div>
+            </form>
+       </div>
+    
 );
 };
+
+
 
 
 
