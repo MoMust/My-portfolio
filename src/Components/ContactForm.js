@@ -8,6 +8,7 @@ function ContactForm() {
         emailjs.sendForm('service_r4v20od', 'template_kxmssbu',e.target, 'user_z0ZrJ8xdlfZwDeLvMXTFT').then(res=>{
             console.log(res);
         }).catch(err=> console.log(err));
+        e.target.reset();
     }
     
    return(
