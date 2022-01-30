@@ -59,9 +59,13 @@
 }
 
 .content-cv{
-    border: 1px solid;
+    
     text-align: center;
     height: 60vh;
+    
+}
+.content-header-cv {
+    color: rgb(125, 157, 142);
     
 }
 .content-cv iframe{

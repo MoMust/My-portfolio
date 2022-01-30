@@ -17,7 +17,15 @@ import { FaBootstrap } from 'react-icons/fa';
 
 
 function About() {
-    
+    function printOutDate(){
+    const dateNow = new Date()
+    let month = dateNow.getUTCMonth() + 1; //months from 1-12
+    let day = dateNow.getUTCDate();
+    let year = dateNow.getUTCFullYear();
+    let newDate = `${day} - ${month} - ${year}`;
+    return newDate;
+    }
+   
     return (
         <div className='body-class-dark'>
                                 {/* PROFILE CARD */}
@@ -37,8 +45,8 @@ function About() {
                             <h5>Front-end / Web Developer</h5>
                         </div>
                         <div className='social-media-about'>
-                            <a href="#"><FacebookIcon className='social-icons' variant="contained"  color="primary"/></a>
-                            <a href="#"><LinkedInIcon   className='social-icons' variant="contained" color="primary"/></a>
+                            <a href="https://www.facebook.com/profile.php?id=627371126"><FacebookIcon className='social-icons' variant="contained"  color="primary"/></a>
+                            <a href="https://www.linkedin.com/in/moe-mustafa-14918a220/"><LinkedInIcon   className='social-icons' variant="contained" color="primary"/></a>
                         </div>
                         <div className='profile-info'>
                             <div className='profile-info-details'>
@@ -49,11 +57,14 @@ function About() {
                                 < LocationOnIcon /><p>Stockholm, Sweden</p>
                             </div>
                             <div className='profile-info-details'>
-                                <CalendarTodayIcon /><p>June 11 1993</p>
+                                <CalendarTodayIcon />
+                                <p>Avalible from: {printOutDate()}</p>
+                                
                             </div>
                         </div>
                         <div className='send-mail'>
-                            <button type='button' className='btn-primary'>Email me</button>
+                             <a href="mailto:mohammed.mustafamoh@learnet.se" class="mail d-flex justify-content-center"><button type='button' className='btn-primary'>Email me</button></a>
+                            
                         </div>
                         </div>
                     </div>

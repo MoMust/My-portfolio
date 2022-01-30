@@ -15,8 +15,8 @@ function Home() {
                     
                 </div>
                 <div className='social-media'>
-                   <a href="#"><FacebookIcon className='social-icons' variant="contained"  color="primary"/></a>
-                   <a href="#"><LinkedInIcon   className='social-icons' variant="contained" color="primary"/></a>
+                   <a href="https://www.facebook.com/profile.php?id=627371126"><FacebookIcon className='social-icons' variant="contained"  color="primary"/></a>
+                   <a href="https://www.linkedin.com/in/moe-mustafa-14918a220/"><LinkedInIcon   className='social-icons' variant="contained" color="primary"/></a>
                     
                 </div>
             </div>
