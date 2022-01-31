@@ -1,25 +1,20 @@
-import { findByLabelText } from '@testing-library/react';
 import React from 'react'
-import { useState, useCallback } from 'react';
+import { useState} from 'react';
 import '../Css/MyWork.css';
 import doc1 from '../Images/doc1.png'
 import doc2 from '../Images/doc2.png'
 import lakarProject from '../Images/lakarDatabas.png';
 import sportSkor from '../Images/sportSkor.png';
-function MyWork() {
+import SearchBar from './SearchBar';
 
-    // function SizeUp(){
-    //     Skapa set state för att minimera bild
-    //     const img = document.getElementById('img1');
-    //     img.style.transform = 'scale(1.5)';
-    //     img.style.transition = 'transform 0.2s ease';
-        
-    // }
+
+
+
+function MyWork() {
 
     const [makeBigImage, setBigImage1] = useState(false)
     const [makeBigImage2, setBigImage2] = useState(false)
-    
-    
+
         // Part 1
         const part1SizeImage1 = {
            height: makeBigImage ? '46vh' : '30vh',
@@ -69,12 +64,12 @@ function MyWork() {
                             <h3>Project DOC</h3>
                         </div>
                         
-                        <div style={makeCursor2} className='row row-work-images mt-5'  onClick={() => setBigImage1(bigImage => !bigImage)}>
+                        <div style={makeCursor2} className='row row-work-images mt-5'  onClick={() =>   setBigImage1(bigImage => !bigImage)}>
                             <div className='content-work-img col-lg-6'>
-                                <img style={part1SizeImage1} id='img1' src={doc1} ></img>
+                                <img style={part1SizeImage1} id='img1' src={doc1}></img>
                             </div>
                             <div className='content-work-img col-lg-6'>
-                                <img style={part1SizeImage2} id='img1' src={doc2} ></img>
+                                <img style={part1SizeImage2} id='img1' src={doc2}></img>
                             </div>
                         </div>
                     </div>
@@ -100,6 +95,12 @@ function MyWork() {
                     </div>
                 
                 </div>
+                <div className='repo'>
+                    <h1>Search in my repository</h1>
+                    <SearchBar/>
+                
+                </div>
+                
                 <div className='row row-custom-mywork'>
                     <div className='content-mywork-mini col-lg-12'>
                         <div className='content-header-cv'>

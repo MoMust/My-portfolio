@@ -1,5 +1,6 @@
 *Allmänt
 -Write a report of the project
+-deploy website
 
 *MyWork
 -Make cv clean.
@@ -14,13 +15,13 @@
 -More ideas?
 
 *Contact
--Make email form responsive
 -update style
-
 
 *Extra
 -Hide show cv
--
+
+react js & bootstrap
+
 
 function sendEmail(e){
         e.preventDefault()
