@@ -72,15 +72,16 @@
     font-weight: 600;
 }
 
-.send-mail > button{
+.send-mail  button{
     width:30%;
     background-color: rgb(21, 97, 152);
-    color: black;
+    color: rgb(198, 191, 191);
     font-weight: 600;
+    border-radius: 5px;
+    border: none;
 }
-.send-mail > button:hover{
+.send-mail  button:hover{
     background-color: blue;
-    color:black;
     transition: 1s;
 }
 /* Profile card slut*/
@@ -135,8 +136,8 @@ gap:30px;
 }
 
 .box:hover{
-    transform: scale(0.8);
-    transition: 3s;
+    transform: scale(1.1);
+    transition: 1s;
 }
 
 

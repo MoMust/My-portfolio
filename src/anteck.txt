@@ -8,7 +8,6 @@
 
 *About
 -Redirect 'KYH' to website 
--Make languages bigger
 
 *Home
 -More ideas?
