@@ -81,37 +81,40 @@ function About() {
                                 <div className='row col-lg-12'>
                                     <div class="box col-lg-6">
                                         <div className='box-header'>
-                                            <CodeIcon /> <p>Programming Languages</p>
+                                            <CodeIcon /> <p>
+                                                Programming Languages</p>
                                         </div>
-                                        <div className='box-content'>
-                                            <HtmlIcon /> <CssIcon/> <JavascriptIcon />
+                                        <div className='box-content ps-2'>
+                                            <HtmlIcon className='language-icon'/> <CssIcon className='language-icon'/> <JavascriptIcon className='language-icon'/>
                                         </div>
                                     </div>
-                                    <div class="box col-lg-6">
+                                    <div class="box col-lg-6 ps-2">
                                         <div className='box-header'>
                                             <CropDinIcon /> <p>Frameworks</p>
                                         </div>
-                                        <div className='box-content'>
-                                            <div className='box-content-fa'><FaReact  /><p>React</p></div>
-                                            <div  className='box-content-fa'><FaBootstrap/><p>Bootstrap</p></div>
+                                        <div className='box-content pt-1'>
+                                            <div className='box-content-fa'><FaReact  /><p>React</p>
+                                            </div>
+                                            <div  className='box-content-fa'><FaBootstrap/><p>Bootstrap</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div className='row col-lg-12'>
                                      <div class="box col-lg-6">
                                          <div className='box-header'>
-                                            <CodeIcon/> <p>Programming Languages</p>
+                                            <CodeIcon /> <p>Programming Languages</p>
                                         </div>
-                                        <div className='box-content'>
-                                            <HtmlIcon /> <CssIcon/> <JavascriptIcon />
+                                        <div className='box-content ps-2'>
+                                            <HtmlIcon className='language-icon'/> <CssIcon className='language-icon'/> <JavascriptIcon className='language-icon'/>
                                         </div>
                                     </div>  
                                     <div class="box col-lg-6">
                                         <div className='box-header'>
                                             <CodeIcon /> <p>Programming Languages</p>
                                         </div>
-                                        <div className='box-content'>
-                                            <HtmlIcon /> <CssIcon/> <JavascriptIcon />
+                                        <div className='box-content ps-2'>
+                                            <HtmlIcon className='language-icon'/> <CssIcon className='language-icon'/> <JavascriptIcon className='language-icon'/>
                                         </div>
                                     </div>
                                 </div>

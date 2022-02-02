@@ -6,10 +6,10 @@ function ReturnHome(){
     let Navigate = useNavigate();
 return(
     <div>
-    <button onClick={() =>{
-                Navigate('/');
-            }}>Go back home</button>
-</div>
+        <button onClick={() =>{
+                    Navigate('/');
+                }}>Go back home</button>
+    </div>
 )
 
 

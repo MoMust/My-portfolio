@@ -5,7 +5,6 @@
 *MyWork
 -Make cv clean.
 -Add more style
--Add github fetch
 
 *About
 -Redirect 'KYH' to website 

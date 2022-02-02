@@ -64,7 +64,7 @@ function MyWork() {
                             <h3>Project DOC</h3>
                         </div>
                         
-                        <div style={makeCursor2} className='row row-work-images mt-5'  onClick={() =>   setBigImage1(bigImage => !bigImage)}>
+                        <div style={makeCursor2} className='row row-work-images mt-5'  onClick={() =>   setBigImage1(MakebigImage => !MakebigImage)}>
                             <div className='content-work-img col-lg-6'>
                                 <img style={part1SizeImage1} id='img1' src={doc1}></img>
                             </div>

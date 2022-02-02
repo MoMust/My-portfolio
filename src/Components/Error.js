@@ -1,6 +1,7 @@
 import React from 'react';
 import '../Css/Error.css';
 import { useNavigate} from 'react-router-dom';
+import ReturnHomeButton from '../Components/ReturnHomeButton'
 
 function Error() {
 
