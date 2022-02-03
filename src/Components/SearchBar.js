@@ -28,7 +28,7 @@ function SearchBar() {
   
   return (
       <div>
-          <input type='text' placeholder='search' value={searchValue} onChange={handleChange}/>
+          <input type='text' placeholder='Search for BigBits8' value={searchValue} onChange={handleChange}/>
           <button onClick={handleClick} type=''>Search</button>
           <SearchResult repos ={repos}/>
       </div>

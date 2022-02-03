@@ -3,7 +3,6 @@
 -deploy website
 
 *MyWork
--Make cv clean.
 -Add more style
 
 *About
