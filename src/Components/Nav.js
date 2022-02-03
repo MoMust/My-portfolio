@@ -14,9 +14,7 @@ function Nav() {
                         <NavLink exact to="/" className='nav-items'>Home</NavLink>
                         <NavLink to="/About" className='nav-items'>About</NavLink>
                         <NavLink to="/MyWork" className='nav-items'>My work</NavLink>
-                        <NavLink to="/Experience" className='nav-items' >Experience</NavLink>
                         <NavLink to="/Contact" className='nav-items-right ms-lg-auto contact-link'>Contact</NavLink>
-                        
                     </ul>
                 </div>
             </nav>

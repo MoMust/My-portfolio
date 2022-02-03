@@ -2,12 +2,6 @@
 -Write a report of the project
 -deploy website
 
-*MyWork
--Add more style
-
-*About
--Redirect 'KYH' to website 
-
 *Home
 -More ideas?
 
