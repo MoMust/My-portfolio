@@ -5,7 +5,7 @@ import doc1 from '../Images/doc1.png'
 import doc2 from '../Images/doc2.png'
 import lakarProject from '../Images/lakarDatabas.png';
 import sportSkor from '../Images/sportSkor.png';
-import SearchBar from './SearchBar';
+import SearchBar from './Repo';
 
 
 

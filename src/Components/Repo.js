@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState} from 'react'
 import axios from 'axios';
-import SearchResult from '../Components/SearchResult';
+import SearchResult from './RepoResult';
 
 function SearchBar() {
 
