@@ -2,6 +2,8 @@
 /* WALLPAPER FOR ALL PAGES */
 #root{
   background-color: black;
+  height: 100vh;
+  
 }
 /* WALLPAPER FOR ALL PAGES SLUT*/
 .body-class{
@@ -10,33 +12,40 @@
   background-size: cover;
   padding:0;
   margin:0;
-  height:100vh;
+  /* height: 91.6vh; */
+  height: 100%;
 }
 
 .front-text{
   font-family: 'Staatliches', cursive;
-  margin-left: 30px;
+  
 }
 
 .front-text h2{
 color:rgb(154, 231, 182);
 padding-top: 5em;
+padding-left: 30px;
 } 
 .front-text h3{
 font-size: 60px;
 color:rgb(238, 215, 173);
+padding-left: 30px;
 } 
 .front-text p{
 font-size: 30px;
 color:rgb(193, 44, 220);
 padding-top: 1em;
+padding-left: 30px;
 }
 /* ICONS */
 .social-media{
-  margin-left: 30px;
+  padding-left: 50px;
   display:flex;
   gap: 70px;
   font-size: 30px;
+}
+.social-media>a{
+  padding-left: 30px;
 }
 .social-icons{
   transform: scale(1.8);
