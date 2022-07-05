@@ -29,7 +29,7 @@ function About() {
     return (
         <div className='body-class-dark'>
                    {/* PROFILE CARD */}
-                 <div className='row row-custom d-flex justify-content-center mt-5 '>
+                 <div className='row row-custom d-flex justify-content-center pt-5 '>
                     <div className='profile-card col-lg-3 col-md-5 col-sm-8 col-8'>
                         <div className="profile-info-container">
                             <div className='profile-bg'>

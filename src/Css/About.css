@@ -1,16 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 /* Full page */
 .body-class-dark{
+    background-color: black;
     padding:0;
     margin:0;
     box-sizing: border-box;
-    min-height: 100vh;
+    height:fit-content;
     font-family: 'Staatliches', cursive;
+    height: 100%;
 }
 /* Full page slut*/
 .row-custom{
     display: flex;
     gap: 5rem;
+    max-width: 100%;
 }
 /* Profile card */
 .profile-card{

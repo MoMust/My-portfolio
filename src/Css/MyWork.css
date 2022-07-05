@@ -1,15 +1,19 @@
 .body-class-dark {
+  height:100%;
+  background-color: black;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   min-height: 100vh;
   font-family: "Staatliches", cursive;
+  height:100%;
 }
 
 .container-mywork {
   display: flex;
   flex-direction: column;
   gap: 100px;
+  margin: 0;
 }
 
 .header-mywork {

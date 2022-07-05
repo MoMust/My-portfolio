@@ -30,13 +30,13 @@ function ContactForm() {
            </div>
            <form  onSubmit={sendEmail}>
                 <div className='form '>
-                    <input  type="text" placeholder='Your name' name ="name"  id="name" required></input>
+                    <input  type="text" placeholder='Your name..' name ="name"  id="name" required></input>
                 </div>
                 <div className='form pt-2'>
-                    <input type="text" placeholder='Your email' name ="email" id="email"  required></input>
+                    <input type="text" placeholder='Your email..' name ="email" id="email"  required></input>
                 </div>
                 <div className='form pt-2'>
-                    <textarea placeholder='Your message' name ="message" id="message"  required></textarea>
+                    <textarea placeholder='Your message..' name ="message" id="message"  required></textarea>
                 </div>
                 <div >
                     <input className='submit-button' type="submit" value="Send" data-bs-toggle='modal' data-bs-target='#myModal' onClick={modalSend}></input>

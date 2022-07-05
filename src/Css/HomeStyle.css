@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 /* WALLPAPER FOR ALL PAGES */
 #root{
-  background-color: black;
-  height: 100vh;
   
 }
 /* WALLPAPER FOR ALL PAGES SLUT*/
@@ -13,12 +11,12 @@
   padding:0;
   margin:0;
   /* height: 91.6vh; */
-  height: 100%;
+  height: -webkit-calc(100vh - 50px);
+  
 }
 
 .front-text{
   font-family: 'Staatliches', cursive;
-  
 }
 
 .front-text h2{

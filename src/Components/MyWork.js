@@ -46,7 +46,7 @@ function MyWork() {
 
     return (
         <div className='body-class-dark'>
-            <div className='container container-mywork '>
+            <div className='container container-mywork mt-0 pt-5'>
                 <div className='row row-custom-mywork'>
                     <div className='header-mywork mt-5 col-lg-12'>
                         <h1>These are my projects</h1>
