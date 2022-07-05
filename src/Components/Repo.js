@@ -17,10 +17,12 @@ function SearchBar() {
         console.log(searchValue);
 
           try{
-        const result = await axios(`https://api.github.com/users/${searchValue}/repos`);
-        setRepos(result);
-        
-    }catch(err){
+            const result = await axios(
+              `https://api.github.com/users/BigBits8/repos`
+            );
+            setRepos(result);
+            // ${searchValue}
+          }catch(err){
         console.log(err)
     }
     }
@@ -28,7 +30,8 @@ function SearchBar() {
   
   return (
       <div>
-          <input type='text' placeholder='Search for BigBits8' value={searchValue} onChange={handleChange}/>
+        {/* For search */}
+          {/* <input type='text' placeholder='Search for BigBits8' value={searchValue} onChange={handleChange}/> */}
           <button onClick={handleClick} type=''>Search</button>
           <SearchResult repos ={repos}/>
       </div>

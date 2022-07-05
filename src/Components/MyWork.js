@@ -6,8 +6,7 @@ import doc2 from '../Images/doc2.png'
 import lakarProject from '../Images/lakarDatabas.png';
 import sportSkor from '../Images/sportSkor.png';
 import SearchBar from './Repo';
-
-
+import Projects from './Projects';
 
 function MyWork() {
 
@@ -16,12 +15,12 @@ function MyWork() {
 
         // Part 1
         const part1SizeImage1 = {
-           height: makeBigImage ? '46vh' : '30vh',
+           height: makeBigImage ? '43vh' : '30vh',
            cursor: makeBigImage ? 'zoom-out' : 'zoom-in',
         //    marginRight: makeBigImage ? '50px' : '0px,'
         }
         const part1SizeImage2 = {
-           height: makeBigImage ? '46vh' : '30vh',
+           height: makeBigImage ? '43vh' : '30vh',
            cursor: makeBigImage ? 'zoom-out' : 'zoom-in',
         //    marginLeft: makeBigImage ? '100px' : '0px,'
         }
@@ -31,12 +30,12 @@ function MyWork() {
 
         // Part2
         const part2SizeImage1 = {
-           height: makeBigImage2 ? '46vh' : '30vh',
+           height: makeBigImage2 ? '43vh' : '30vh',
            cursor: makeBigImage2 ? 'zoom-out' : 'zoom-in',
         //    marginRight: makeBigImage ? '50px' : '0px,'
         }
         const part2SizeImage2 = {
-           height: makeBigImage2 ? '46vh' : '30vh',
+           height: makeBigImage2 ? '43vh' : '30vh',
            cursor: makeBigImage2 ? 'zoom-out' : 'zoom-in',
         //    marginLeft: makeBigImage ? '100px' : '0px,'
         }
@@ -63,7 +62,7 @@ function MyWork() {
                             <h3>Project DOC</h3>
                         </div>
                         
-                        <div style={makeCursor2} className='row row-work-images mt-5'  onClick={() =>   setBigImage1(MakebigImage => !MakebigImage)}>
+                        <div style={makeCursor2} className='row row-work-images mt-5'  onClick={() => setBigImage1(MakebigImage => !MakebigImage)}>
                             <div className='content-work-img col-lg-6'>
                                 <img style={part1SizeImage1} id='img1' src={doc1}></img>
                             </div>
@@ -106,7 +105,7 @@ function MyWork() {
                                 <h1>Check out my CV</h1>
                         </div>
                         <div className='content-cv'>
-                             <iframe src="https://drive.google.com/file/d/1p6hgBWagF7DsTxfRVkyvztFpVyrB1JRz/preview" allow="autoplay"></iframe>
+                             <iframe src="https://drive.google.com/file/d/1Pczho48GStbiEXElM1HwFDFwLrONfvlq/preview" allow="autoplay"></iframe>
                         </div>
                        
                     </div>

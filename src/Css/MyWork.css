@@ -27,6 +27,7 @@
 }
 
 .content-mywork {
+  
   border-radius: 10px;
   border: 1px solid;
   background-color: rgba(136, 181, 152, 0.129);
@@ -43,6 +44,7 @@
   filter: grayscale(20%) brightness(75%);
   border-radius: 10px;
   height: 30vh;
+  
   cursor: zoom-in;
   padding: 0;
   margin-top: 20px;
@@ -106,5 +108,8 @@
 
 .repo button {
   border: none;
-  margin-left: 10px;
+  /* For search */
+  /* margin-left: 10px; */
+  
+  width: 10%;
 }
