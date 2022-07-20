@@ -108,8 +108,9 @@
 
 .repo button {
   border: none;
+  margin-left: 10px;
   /* For search */
   /* margin-left: 10px; */
-  
-  width: 10%;
+  font-size: 2vw;
+  width: 15%;
 }
