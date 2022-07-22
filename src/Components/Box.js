@@ -1,24 +1,24 @@
-function Box({ Icon, Icon1, Icon2, Icon3, Icon4, header }) {
+function Box({ icon, skill1, skill2, skill3, skill4, header }) {
   return (
     <div class="box col-lg-12 col-md-12">
       <div className="box-header">
-        {Icon}
+        {icon}
         <p>{header}</p>
       </div>
       
         <div className="box-content pt-1">
           <div className="box-content-fa ">
-            {Icon1}
+            {skill1}
             
           </div>
           <div className="box-content-fa">            
-            {Icon2}
+            {skill2}
           </div>
           <div className="box-content-fa">
-            {Icon3}
+            {skill3}
           </div>
           <div className="box-content-fa">
-            {Icon4}
+            {skill4}
             
           </div>
         </div>

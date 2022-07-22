@@ -102,28 +102,28 @@ function About() {
             <div class="row about-info-bottom-row">
               <div className="row">
                 <Box
-                  Icon={<CodeIcon />}
-                  Icon1={"HTML"}
-                  Icon2={"CSS"}
-                  Icon3={"JavaScript"}
+                  icon={<CodeIcon />}
+                  skill1={"HTML"}
+                  skill2={"CSS"}
+                  skill3={"JavaScript"}
                   header={"Programming languages"}
                 />
                 <Box
-                  Icon={<CropDinIcon />}
-                  Icon1={"React"}
-                  Icon2={"Bootstrap"}
-                  Icon3={"React Native"}
+                  icon={<CropDinIcon />}
+                  skill1={"React"}
+                  skill2={"Bootstrap"}
+                  skill3={"React Native"}
                   
                   header={"Frameworks"}
                 />
               </div>
               <div className="row ">
                 <Box
-                  Icon={<CodeIcon />}
-                  Icon1={"Wordpress"}
-                  Icon2={"MVC"}
-                  Icon3={'Node.js'}
-                  Icon4={'Jest'}
+                  icon={<CodeIcon />}
+                  skill1={"Wordpress"}
+                  skill2={"MVC"}
+                  skill3={'Node.js'}
+                  skill4={'Jest'}
                   header={"Other tools"}
                 />
                
