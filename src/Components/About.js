@@ -1,6 +1,6 @@
 import React from "react";
 import "../Css/About.css";
-import Pic from "../Images/profil-bild.png";
+import Pic from "../Images/profile-pic.png";
 // import ReturnHome from './ReturnHomeButton';
 import FacebookIcon from "@mui/icons-material/Facebook";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";

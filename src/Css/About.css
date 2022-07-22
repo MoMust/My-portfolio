@@ -31,18 +31,19 @@
 
 .profile-bg{
     margin: auto;
-    width: 12vw;
-    height:14vw;
+    width: 21vw;
+    height:38vh;
     /* background-color: rgb(125, 157, 29); */
     background-color: rgb(17, 17, 17);
-    border-radius: 50%;
+    
 }
 
 .profile-image img{
-    filter: grayscale(60%) contrast(170%) brightness(95%);
+    filter: grayscale(20%) contrast(140%) brightness(95%);
     border-radius: 50%;
-    width: 12vw;
-    height: 14vw;
+    width: 14vw;
+    height: 13vw;
+    margin-top: 50px;
 }
 .profile-card-text{
     color: rgb(125, 157, 142);
