@@ -27,23 +27,26 @@
     background-color: rgba(3, 3, 3, 0.904);
     border-radius: 10px;
     border: solid 1px;
+    height: 552px;
 }
 
 .profile-bg{
     margin: auto;
-    width: 21vw;
-    height:38vh;
     /* background-color: rgb(125, 157, 29); */
     background-color: rgb(17, 17, 17);
-    
+}
+
+.profile-image{
+    align-items: center;
+    justify-content: center;
 }
 
 .profile-image img{
     filter: grayscale(20%) contrast(140%) brightness(95%);
     border-radius: 50%;
-    width: 14vw;
-    height: 13vw;
-    margin-top: 50px;
+    width: 50%;
+    margin-top: 30px;
+   
 }
 .profile-card-text{
     color: rgb(125, 157, 142);
