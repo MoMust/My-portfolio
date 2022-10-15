@@ -14,6 +14,10 @@ function SearchBar() {
     }
 
     const handleClick = async () =>{
+
+      const headers = {
+        "Content-Type": "text/plain",
+      };
         console.log(searchValue);
 
           try{

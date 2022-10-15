@@ -99,7 +99,7 @@ function About() {
           </div>
           <div className="about-info-bottom">
             <h2>What i know</h2>
-            <div class="row about-info-bottom-row">
+            <div className="row about-info-bottom-row">
               <div className="row">
                 <Box
                   icon={<CodeIcon />}
