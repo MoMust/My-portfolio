@@ -3,6 +3,11 @@ import { useState} from 'react';
 import '../Css/MyWork.css';
 import doc1 from '../Images/doc1.png'
 import doc2 from '../Images/doc2.png'
+import Places from '../Images/places.png'
+import Places2 from '../Images/places2.png'
+import CityPop from '../Images/cityPop.png'
+import CityPop2 from '../Images/cityPop2.png'
+import Smart from '../Images/smart.png'
 import lakarProject from '../Images/lakarDatabas.png';
 import sportSkor from '../Images/sportSkor.png';
 import SearchBar from './Repo';
@@ -14,31 +19,31 @@ function MyWork() {
     const [imageZoom2, setImageZoom2] = useState(false)
         // Zoom in and out on images 
         // Part 1 
-        const part1SizeImage1 = {
-           height: imageZoom ? '43vh' : '30vh',
-           cursor: imageZoom ? 'zoom-out' : 'zoom-in',
-        //    marginRight: imageZoom ? '50px' : '0px,'
-        }
+        // const style = {
+        //    height: '30vh',
+        //    cursor: imageZoom ? 'zoom-out' : 'zoom-in',
+        // //    marginRight: imageZoom ? '50px' : '0px,'
+        // }
         
-        // Part2
-        const part2SizeImage1 = {
-          height: imageZoom2 ? '43vh' : '30vh',
-          cursor: imageZoom2 ? 'zoom-out' : 'zoom-in',
-          //    marginRight: imageZoom ? '50px' : '0px,'
-        }
-        const part2SizeImage2 = {
-          height: imageZoom2 ? '43vh' : '30vh',
-          cursor: imageZoom2 ? 'zoom-out' : 'zoom-in',
-          //    marginLeft: imageZoom ? '100px' : '0px,'
-        }
+        // // Part2
+        // const part2SizeImage1 = {
+        //   height: imageZoom2 ? '43vh' : '30vh',
+        //   cursor: imageZoom2 ? 'zoom-out' : 'zoom-in',
+        //   //    marginRight: imageZoom ? '50px' : '0px,'
+        // }
+        // const part2SizeImage2 = {
+        //   height: imageZoom2 ? '43vh' : '30vh',
+        //   cursor: imageZoom2 ? 'zoom-out' : 'zoom-in',
+        //   //    marginLeft: imageZoom ? '100px' : '0px,'
+        // }
         
-        const makeCursor = {
-           cursor: imageZoom ? 'zoom-out' : 'zoom-in',
-        }
+        // const makeCursor = {
+        //    cursor: imageZoom ? 'zoom-out' : 'zoom-in',
+        // }
 
     return (
       <div className="body-class-dark">
-        <div className="container container-mywork mt-0 pt-5">
+        <div className="container-mywork mt-0 pt-5">
           <div className="row row-custom-mywork">
             <div className="header-mywork mt-5 col-lg-12">
               <h1>These are my projects</h1>
@@ -57,15 +62,14 @@ function MyWork() {
               </div>
 
               <div
-                style={makeCursor}
                 className="row row-work-images mt-5"
-                onClick={() => setImageZoom1((imageZoom) => !imageZoom)}
+                
               >
                 <div className="content-work-img col-lg-6">
-                  <img style={part1SizeImage1} id="img1" src={doc1}></img>
+                  <img  src={doc1}></img>
                 </div>
                 <div className="content-work-img col-lg-6">
-                  <img style={part1SizeImage1} id="img1" src={doc2}></img>
+                  <img src={doc2}></img>
                 </div>
               </div>
             </div>
@@ -79,20 +83,73 @@ function MyWork() {
               </div>
 
               <div
-                style={makeCursor}
                 className="row row-work-images mt-5"
-                onClick={() => setImageZoom2((bigImage) => !bigImage)}
               >
                 <div className="content-work-img col-lg-6">
                   <img
-                    style={part2SizeImage1}
-                    id="img1"
+                   
+                  
                     src={lakarProject}
                   ></img>
                 </div>
                 <div className="content-work-img col-lg-6">
-                  <img style={part2SizeImage2} id="img1" src={sportSkor}></img>
+                  <img  src={sportSkor}></img>
                 </div>
+              </div>
+            </div>
+          </div>
+          <div className="row row-custom-mywork">
+            <div className="content-mywork col-lg-12">
+              <div className="project-names">
+                <h3>Places</h3>
+              </div>
+
+              <div
+                className="row row-work-images mt-5"
+                
+              >
+                <div className="content-work-img col-lg-6">
+                  <img src={Places}></img>
+                </div>
+                <div className="content-work-img col-lg-6">
+                  <img src={Places2}></img>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row row-custom-mywork">
+            <div className="content-mywork col-lg-12">
+              <div className="project-names">
+                <h3>City Pop</h3>
+              </div>
+
+              <div
+                className="row row-work-images mt-5"
+              >
+                <div className="content-work-img col-lg-6">
+                  <img src={CityPop}></img>
+                </div>
+                <div className="content-work-img col-lg-6">
+                  <img src={CityPop2}></img>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row row-custom-mywork">
+            <div className="content-mywork col-lg-12">
+              <div className="project-names">
+                <h3>SmartWaste</h3>
+              </div>
+
+              <div
+                className="row row-work-images mt-5"
+              >
+                <div className="content-work-img col-lg-6">
+                  <img  src={Smart}></img>
+                </div>
+                {/* <div className="content-work-img col-lg-6">
+                  <img style={part1SizeImage1} src={CityPop2}></img>
+                </div> */}
               </div>
             </div>
           </div>

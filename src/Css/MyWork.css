@@ -43,11 +43,26 @@
 .content-work-img img {
   filter: grayscale(20%) brightness(75%);
   border-radius: 10px;
-  height: 30vh;
-  
-  cursor: zoom-in;
+  height: 40vh;
+  /* cursor: zoom-in; */
   padding: 0;
   margin-top: 20px;
+}
+
+@media screen and (max-width: 1060px) {
+.content-work-img img {
+    
+    height: 35vh;
+ 
+  }
+}
+
+@media screen and (max-width: 770px) {
+.content-work-img img {
+    
+    height: 35vh;
+ 
+  }
 }
 
 .content-work-img {
@@ -68,12 +83,7 @@
 .content-header-cv {
   color: rgb(125, 157, 142);
 }
-.content-cv iframe {
-  padding: 20px;
-  filter: grayscale(20%) brightness(75%);
-  width: 80%;
-  height: 90%;
-}
+
 
 .project-names {
   text-align: center;
