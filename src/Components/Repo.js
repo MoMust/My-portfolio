@@ -6,23 +6,23 @@ import SearchResult from './RepoResult';
 function SearchBar() {
 
     
-    const [searchValue, setSearchValue ] = useState('')
+    /*const [searchValue, setSearchValue ] = useState('')*/
     const [repos, setRepos] = useState([]);
 
-    const handleChange = (e) => {
+    /*const handleChange = (e) => {
         setSearchValue(e.target.value);
-    }
+    }*/
 
     const handleClick = async () =>{
 
       const headers = {
         "Content-Type": "text/plain",
       };
-        console.log(searchValue);
+        /*console.log(searchValue);*/
 
           try{
             const result = await axios(
-              `https://api.github.com/users/BigBits8/repos`
+              `https://api.github.com/users/momust/repos`
             );
             setRepos(result);
             // ${searchValue}
